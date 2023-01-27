@@ -1,0 +1,59 @@
+@import url('reset.css');
+
+div.heading{
+	color: blue;
+}
+
+h1{
+	color: blueviolet;
+}
+
+.heading p{
+color: aquamarine;
+}
+
+.navigation{
+	color: cyan;
+}
+
+#name,
+#child,
+#santos,
+#kosmos{
+	color: chartreuse;
+}
+
+#ch1,
+#ch2,
+#ch3,
+#ch4{
+color: darkviolet;
+}
+
+.text span{
+	color: darkorange;
+}
+
+#santos{
+	color: fuchsia;
+}
+
+span.ssantos{
+	color: green;
+}
+
+.text > p {
+	color: #6309f3;
+}
+
+.textid{
+	color: yellow;
+}
+
+footer a{
+	color: #6309f3;
+}
+
+.textid span{
+	color: slategray;
+}
