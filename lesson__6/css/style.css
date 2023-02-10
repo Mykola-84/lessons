@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+
+@import url("reset.css");
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.8; /* 25px/14 */
+	color: #6c757d;
+}
+
+[class*="__conteiner"] {
+	max-width: 1470px;
+	padding: 0 15px 0 15px;
+	margin: 0 auto;
+}
+
+.peper {
+	padding: 30px 0 30px 0;
+}
+
+.wood {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+
+.image-sade {
+	max-width: 1240px;
+	margin: 0 auto 80px;
+}
+
+.imagess img {
+	max-width: 100%;
+}
+
+.peper__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+.tittle {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	max-width: 400px;
+	margin-bottom: 40px;
+}
+
+.peper__text-block h2 {
+	max-width: 605px;
+}
+
+.images-girl-lake {
+	font-size: 0;
+}
+
+.images-two {
+	margin: 0 auto 80px;
+	max-width: 1240px;
+}
+
+.image-1 {
+	margin-right: 30px;
+}
+
+.pages-2 {
+	max-width: 100%;
+	margin-bottom: 100px;
+}
+
+.peper__text-block-pages2 {
+	max-width: 816px;
+	margin: 0 auto 100px;
+}
+
+.peper__text-block-pages2 h2 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	max-width: 605px;
+	margin: 100px 0 100px 0;
+}
+
+.images-reddress {
+	font-size: 0;
+}
+
+.images-black-red {
+	margin: 0 auto 100px;
+	max-width: 1240px;
+}
+
+.image-5 {
+	margin-right: 30px;
+}
