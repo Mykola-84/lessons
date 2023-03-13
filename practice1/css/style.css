@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap");
+
+@import url("reset.css");
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	padding: 100px;
+}
+
+.link {
+	font-size: 24px;
+	color: #8a2be2;
+	transition: all 1s;
+}
+
+.link:hover {
+	text-decoration: underline;
+	color: #f3e306;
+}
+
+.linkk {
+	font-size: 24px;
+	color: #e6ab0c;
+	transition: all 1s ease 1s;
+}
+
+.linkk:hover {
+	text-decoration: underline;
+	color: #0645f3;
+	transition: all 1.3s;
+}
+
+.page__item {
+	width: 150px;
+	height: 150px;
+	background-color: brown;
+	transition: all 0.7s;
+	margin-bottom: 30px;
+}
+
+.page__item:hover {
+	transform: translate(20px, 20px);
+	width: 300px;
+	height: 150px;
+	background-color: #13db1d;
+}
+
+.page__item1 {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(252, 235, 5);
+	transition: width 0.7s ease, height 0.6s ease-in 0.7s, background-color 1.4s ease-in-out 1s;
+	margin-bottom: 30px;
+}
+
+.page__item1:hover {
+	width: 300px;
+	height: 300px;
+	background-color: #1c661f;
+}
+
+.page__icon {
+	height: 170px;
+	width: 170px;
+	background-color: #8a4242;
+	visibility: visible;
+	opacity: 1;
+	transition: all 1s;
+	margin-bottom: 20px;
+}
+
+.page__icon:hover {
+	transform: translate(20px, 20px);
+	width: 220px;
+	height: 220px;
+	background-color: #13db1d;
+	visibility: hidden;
+	opacity: 0;
+}
+
+/*Порядок запису значень через пробіл:
+	transition-property - властивості
+	transition-duration - час
+	transition-timing-function - стиль переходу
+	transition-delay - затримка
+	transition: all 2s cubic-bezier(0.13, 2.85, 0.83, -1.49) 0.3s;*/
+
+.image {
+	width: 300px;
+	height: 300px;
+	transition: all 1.5s cubic-bezier(0.13, 2.85, 0.83, -1.49) 0.3s;
+}
+
+.image:hover {
+	width: 500px;
+	height: 500px;
+}
+
+.images {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.images::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.2;
+	transition: opacity 0.5s;
+}
+
+.images:hover::before {
+	opacity: 0;
+}
+
+.images1 {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.images1::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	transition: all 0.5s ease 1s;
+
+	opacity: 1;
+}
+
+.images1:hover::before {
+	transform: translate(100%, 0);
+	transition: all 0.5s;
+
+}
+
+.images2 {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.images2::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	transition: opacity 0.7s;
+	opacity: 0.2;
+	z-index: 3;
+}
+
+.images2 img {
+	transition: transform 0.7s;
+}
+
+.images2:hover img {
+	transform: scale(1.1);
+}
+
+.images2:hover::before {
+	opacity: 0;
+}
+
+.images3 {
+	position: relative;
+	display: inline-block;
+}
+
+.images3::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	transition: opacity 0.7s;
+	opacity: 0.2;
+	z-index: 3;
+}
+
+.images3 img {
+	max-width: 100%;
+	transition: transform 0.7s;
+}
+
+.images3:hover img {
+	transform: scale(1.1);
+}
+
+.images3:hover::before {
+	opacity: 0;
+}
