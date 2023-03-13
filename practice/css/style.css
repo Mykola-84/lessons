@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap");
+
+@import url("reset.css");
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	background-color: #dbd2d2;
+}
+
+.head__container {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.translate {
+	width: 200px;
+	height: 200px;
+	color: aliceblue;
+	background-color: #b14040;
+	text-align: center;
+	padding: 40px;
+	font-size: 26px;
+	transition: all 0.4s;
+	margin-bottom: 15px;
+}
+
+.translate:hover {
+	transform: translate(35%, 15px);
+}
+
+.scale {
+	width: 200px;
+	height: 200px;
+	color: aliceblue;
+	background-color: #ca931b;
+	text-align: center;
+	padding: 40px;
+	font-size: 26px;
+	transition: all 0.4s;
+	margin-bottom: 15px;
+}
+
+.scale:hover {
+	transform: scale(1.5);
+}
+
+.rotate {
+	width: 200px;
+	height: 200px;
+	color: aliceblue;
+	background-color: #95e614;
+	text-align: center;
+	padding: 40px;
+	font-size: 26px;
+	transition: all 1.5s;
+	margin-bottom: 15px;
+}
+
+.rotate:hover {
+	transform: rotate(-360deg);
+	background-color: #10d2e0;
+	color: #110f0f;
+	border-radius: 50%;
+	box-shadow: 3px 3px 8px #292727;
+	transition: all 3s;
+}
+
+.skew {
+	width: 200px;
+	height: 200px;
+	color: rgb(255, 255, 255);
+	background-color: #397e75;
+	text-align: center;
+	padding: 40px;
+	font-size: 26px;
+	transform: skew(25deg, 0);
+	transition: all 2s;
+	margin-bottom: 15px;
+}
+
+.skew:hover {
+	transform: skew(-25deg, 0);
+}
+
+.multi {
+	width: 200px;
+	height: 200px;
+	color: rgb(255, 255, 255);
+	background-color: #0ee007;
+	text-align: center;
+	padding: 40px;
+	font-size: 26px;
+	transition: all 2s;
+	margin-bottom: 15px;
+}
+
+.multi:hover {
+	transform: skew(-25deg, 0) rotate(270deg) scale(0.2);
+	background-color: #1809e6;
+}
+
+.origin {
+	width: 200px;
+	height: 200px;
+	color: rgb(255, 255, 255);
+	background-color: #0d3d0b;
+	text-align: center;
+	padding: 40px;
+	font-size: 26px;
+	transition: all 2s;
+	transform-origin: 0 0;
+	margin-bottom: 15px;
+}
+
+.origin:hover {
+	transform: rotate(-90deg) scale(1.4);
+}
+
+.perspective {
+	margin-bottom: 15px;
+	perspective: 400px;
+	perspective-origin: 0 0;
+}
+
+.perspective__origin {
+	width: 200px;
+	height: 200px;
+	color: rgb(255, 255, 255);
+	background-color: #ee06a1;
+	text-align: center;
+	padding: 40px;
+	font-size: 26px;
+	transition: all 2s;
+	margin-bottom: 15px;
+	transform: rotateX(45deg);
+}
+
+.rotate3d {
+	width: 200px;
+	height: 200px;
+	color: aliceblue;
+	background-color: #b14040;
+	text-align: center;
+	padding: 40px;
+	font-size: 26px;
+	transition: all 2s;
+	margin-bottom: 15px;
+}
+
+.rotate3d:hover {
+	transform: rotate3d(1, 1, 1, 90deg);
+}
