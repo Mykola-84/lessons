@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Form 16</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__form form">
+				<div class="form__container">
+					<div class="form__tittle">
+						<h2>Billing Details</h2>
+					</div>
+					<div class="form__registration">
+						<div class="form__page">
+							<form class="form__reg" method="post" enctype="multipart/form-data" action="#">
+								<div class="form__line">
+									<input class="form__form" required autocomplete="off" minlength="2" maxlength="15"
+										tabindex="1" placeholder="First name*" type="text" name="username" id="name">
+									<input class="form__form" required autocomplete="off" minlength="2" maxlength="15"
+										tabindex="2" placeholder="Last name*" type="text" name="username" id="last_name">
+								</div>
+
+								<div class="form__line">
+									<input class="form__form" required autocomplete="off" minlength="2" maxlength="15"
+										tabindex="3" placeholder="Address*" type="text" name="username" id="address">
+									<input class="form__form" autocomplete="off" minlength="2" maxlength="15" tabindex="4"
+										placeholder="Address line 2" type="text" name="username" id="address_line">
+								</div>
+								<div class="form__line">
+									<select tabindex="5" class="form__choice" name="list" id="counry">
+										<option selected disabled value="1">Country*</option>
+										<option value="2">Ukraine</option>
+										<option value="3">Poland</option>
+										<option value="4">Spain</option>
+										<option value="5">England</option>
+										<option value="6">Germany</option>
+										<option value="7">Italy</option>
+									</select>
+									<input class="form__form" required autocomplete="off" minlength="2" maxlength="15"
+										tabindex="6" placeholder="City/Town*" type="text" name="username" id="city">
+								</div>
+								<div class="form__line">
+									<input class="form__form" required autocomplete="off" minlength="2" maxlength="15"
+										tabindex="7" placeholder="Postcode / ZIP*" type="tel" name="username" id="zip">
+									<input class="form__form" required autocomplete="off" minlength="2" maxlength="15"
+										tabindex="8" placeholder="Phone*" type="tel" name="username" id="tel">
+								</div>
+								<div class="form__line">
+									<textarea tabindex="9" class="form__area" autocomplete="off"
+										placeholder="Additional information" name="message"></textarea>
+								</div>
+								<div class="form__account">
+									<div class="form__acc">
+										<input checked class="form__check" id="acc-01" name="account" type="checkbox">
+										<label tabindex="10" class="form__label" for="acc-01">Create Account</label>
+									</div>
+									<div class="form__acc">
+										<input class="form__check" id="acc-02" name="address" type="checkbox">
+										<label tabindex="11" class="form__label" for="acc-02">Ship to a different address?</label>
+									</div>
+								</div>
+								<div class="subtittle">
+									<h3>Apply Coupon to get discount!</h3>
+								</div>
+								<div class="form__coupon">
+									<div class="form__codes">
+										<input class="form__code" autocomplete="off" minlength="2" maxlength="15"
+											placeholder="Coupon code" type="text" name="username" id="code">
+										<button type="submit" class="form__btn">Apply Code</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main></main>
+		<footer></footer>
+	</div>
+
+
+
+</body>
+
+</html>
